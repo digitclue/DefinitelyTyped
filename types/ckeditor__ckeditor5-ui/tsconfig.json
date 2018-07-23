@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "baseUrl": "../",
+    "typeRoots": [
+      "../"
+    ],
+    "types": [],
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "@ckeditor/ckeditor5-core": [
+        "ckeditor__ckeditor5-core"
+      ],
+      "@ckeditor/ckeditor5-utils": [
+        "ckeditor__ckeditor5-utils"
+      ],
+      "@ckeditor/ckeditor5-ui": [
+        "ckeditor__ckeditor5-ui"
+      ]
+    }
+  },
+  "files": [
+    "index.d.ts",
+    "ckeditor__ckeditor5-ui-tests.ts"
+  ]
+}
